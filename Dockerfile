@@ -1,8 +1,9 @@
 # DOCKER-VERSION 1.2.0
 # VERSION 0.1
+# Original by James Badger <james@jamesbadger.ca> @ https://github.com/openfirmware/docker-mapnik
 
 FROM ubuntu:trusty
-MAINTAINER James Badger <james@jamesbadger.ca>
+MAINTAINER Stefan Blatter <info@recode.ch>
 
 ENV DEBIAN_FRONTEND noninteractive
 
