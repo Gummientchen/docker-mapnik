@@ -7,6 +7,7 @@ MAINTAINER James Badger <james@jamesbadger.ca>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update &&\
-    apt-get install -y libmapnik2.2 libmapnik2-dev mapnik-utils python-mapnik
+    apt-get install -y libmapnik2.2 libmapnik2-dev mapnik-utils python-mapnik &&\
+    rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["/bin/bash"]
